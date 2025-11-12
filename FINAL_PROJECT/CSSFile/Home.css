@@ -1,0 +1,77 @@
+section{
+  height: 500px;
+}
+.hero-section{
+  background-image: url('../PhotoAsset/bg-img.png'); 
+  background-repeat: no-repeat;                 
+  background-size: cover;                         
+  background-position: center; 
+}
+.hero{
+  height: 100%;
+}
+.hero .text-hero{
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.hero .hero-cta{
+  width: 100%;
+}
+.btn-ghost:hover{
+  background-color: #333;
+}
+.hero img{
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
+}
+.purpose .purpose-cta{
+    gap: 3rem;
+  }
+.trainer{
+  height: fit-content;
+}
+.feedback{
+  height: fit-content;
+}
+.nutrition img{
+  width: 100%;
+}
+.purpose a{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2.5rem;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 15px;
+  width: 20%;
+  box-shadow: 0 18px 40px rgba(12,15,20,0.12) !important;
+  background:linear-gradient(180deg,#fff 0%, #f7f9fb 100%);
+}
+.purpose a:hover{
+  transform: translateY(-6px);
+}
+.purpose a i{
+  font-size: 50px;
+}
+.trainer-card{
+  border-radius: 20px;
+}
+@media (max-width: 768px){
+  section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: fit-content;
+  }
+  .purpose .purpose-cta{
+    gap: 20px;
+  }
+  .purpose a{
+    width: fit-content;
+  }
+  .hero .text-hero{
+    width: 100%;
+    text-align: center;
+  }
+}
